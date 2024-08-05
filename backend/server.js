@@ -26,6 +26,3 @@ mongoose
     .catch((error) => {
         console.log(error)
     });
-
-
-    //stopped 22:23

@@ -30,7 +30,6 @@ router.post('/', async (req, res) =>{
         res.status(500).send({ message: error.message });
     }
     
-    
 });
 
 //Route for get all from database
@@ -61,7 +60,6 @@ router.get('/:id', async (req, res) => {
     }
 });
 
-//-----------------------------------
 //Route for update one data to database
 router.put('/:id', async (req, res) => {
     try {
@@ -87,7 +85,6 @@ router.put('/:id', async (req, res) => {
     }
 });
 
-//-----------------------------------
 //Route for delete one data from  database
 
 router.delete('/:id', async (req, res) => {
